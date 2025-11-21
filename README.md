@@ -1,6 +1,4 @@
-=====================================================================
-🏠 HOME SECURITY SYSTEM USING ESP32-CAM & TELEGRAM ALERTS
-=====================================================================
+# 🏠 HOME SECURITY SYSTEM USING ESP32-CAM & TELEGRAM ALERTS
 
 A smart Home Security System built using ESP32-CAM, capable of detecting:
 
@@ -13,9 +11,7 @@ A smart Home Security System built using ESP32-CAM, capable of detecting:
 
 This project uses Telegram Bot API for instant alerts from anywhere.
 
-=====================================================================
-⭐ FEATURES
-=====================================================================
+## ⭐ FEATURES
 
 - Arm/Disarm system using Telegram Bot
 - Intruder detection using PIR sensor
@@ -29,9 +25,7 @@ This project uses Telegram Bot API for instant alerts from anywhere.
 - Fully open-source (CC BY-NC-SA 4.0)
 
 
-=====================================================================
-🔧 HARDWARE COMPONENTS
-=====================================================================
+## 🔧 HARDWARE COMPONENTS
 
 - ESP32-CAM (AI Thinker)
 - FTDI Programmer
@@ -46,9 +40,7 @@ This project uses Telegram Bot API for instant alerts from anywhere.
 - LiPo Battery / Power Bank
 
 
-=====================================================================
-💻 SOFTWARE USED
-=====================================================================
+## 💻 SOFTWARE USED
 
 - Arduino IDE
 - ESP32 Board Manager
@@ -57,9 +49,7 @@ This project uses Telegram Bot API for instant alerts from anywhere.
 - Telegram App
 - (Optional) VS Code + PlatformIO
 
-=====================================================================
-🚀 HOW IT WORKS
-=====================================================================
+## 🚀 HOW IT WORKS
 
 1. Sensors connect to ESP32-CAM.
 2. ESP32-CAM connects to your WiFi network.
@@ -72,9 +62,7 @@ This project uses Telegram Bot API for instant alerts from anywhere.
 6. System can be armed/disarmed using Telegram commands.
 7. Only registered Chat IDs can use the bot.
 
-=====================================================================
-🤖 SETTING UP TELEGRAM BOT
-=====================================================================
+## 🤖 SETTING UP TELEGRAM BOT
 
 1️⃣ Create Bot  
 Open Telegram → Search “BotFather”  
@@ -93,9 +81,7 @@ Command:
 
 ⚠ DO NOT upload real tokens or WiFi passwords to GitHub.
 
-=====================================================================
-📚 REQUIRED LIBRARIES
-=====================================================================
+## 📚 REQUIRED LIBRARIES
 
 Install through Arduino Library Manager:
 
@@ -103,4 +89,4 @@ Install through Arduino Library Manager:
 - Universal Telegram Bot Library
 - WiFiClientSecure
 
-## Make your home smarter, safer, and always protected. 🛡️🏡
+### Make your home smarter, safer, and always protected. 🛡️🏡
